@@ -47,7 +47,7 @@ public class AddRecordExample {
                 "POST",
                 "/api/add-store",
                 "add-store",
-                "",
+                "{\"patient\":\"Alice\",\"hospital\":\"XH-hospital\"}",
                 "en",
                 "",
                 "{\"status\":\"ok\",\"msg\":\"\"}",

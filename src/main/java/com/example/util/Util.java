@@ -32,7 +32,7 @@ public class Util {
     }
 
     public static String getRandomName(String prefix) {
-        return prefix + "_" + getRandomCode(6);
+        return prefix + "-" + getRandomCode(6);
     }
 
 }
